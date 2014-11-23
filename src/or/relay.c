@@ -286,7 +286,7 @@ circuit_receive_relay_cell(cell_t *cell, circuit_t *circ,
                                   * we might kill the circ before we relay
                                   * the cells. */
 
-  append_cell_to_circuit_queue(circ, chan, cell, cell_direction, 0);
+  //append_cell_to_circuit_queue(circ, chan, cell, cell_direction, 0);
   return 0;
 }
 
